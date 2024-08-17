@@ -1,0 +1,67 @@
+
+|   angular.json
+|   arborescence.txt
+|   karma.conf.js
+|   package-lock.json
+|   package.json
+|   README.md
+|   tsconfig.app.json
+|   tsconfig.json
+|   tsconfig.spec.json
+|
+
+\---src
+    |   favicon.ico
+    |   index.html
+    |   main.ts
+    |   polyfills.ts
+    |   styles.scss
+    |   test.ts
+    |
+    +---app
+    |   |   app-routing.module.ts
+    |   |   app.component.html
+    |   |   app.component.scss
+    |   |   app.component.spec.ts
+    |   |   app.component.ts
+    |   |   app.config.ts
+    |   |   app.module.ts
+    |   |
+    |   +---core
+    |   |   +---models
+    |   |   |       Olympic.ts
+    |   |   |       Participation.ts
+    |   |   |
+    |   |   \---services
+    |   |           olympic.service.spec.ts
+    |   |           olympic.service.ts
+    |   |
+    |   \---pages
+    |       +---country-details
+    |       |       country-details.component.html
+    |       |       country-details.component.scss
+    |       |       country-details.component.spec.ts
+    |       |       country-details.component.ts
+    |       |
+    |       +---home
+    |       |       home.component.html
+    |       |       home.component.scss
+    |       |       home.component.spec.ts
+    |       |       home.component.ts
+    |       |
+    |       \---not-found
+    |               not-found.component.html
+    |               not-found.component.scss
+    |               not-found.component.spec.ts
+    |               not-found.component.ts
+    |
+    +---assets
+    |   |   .gitkeep
+    |   |
+    |   \---mock
+    |           olympic.json
+    |
+    \---environments
+            environment.prod.ts
+            environment.ts
+

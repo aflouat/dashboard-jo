@@ -28,27 +28,19 @@
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/olympic-dashboard.git
+   git clone https://github.com/aflouat/dashboard-jo.git
 Navigate to the project directory:
 
-bash
-Copier le code
 cd olympic-dashboard
 Install dependencies:
 
-bash
-Copier le code
 npm install
 Running the App
 Start the development server:
 
-bash
-Copier le code
 ng serve
 Open your browser and navigate to:
 
-arduino
-Copier le code
 http://localhost:4200
 The app should now be running locally on your machine.
 
@@ -58,19 +50,12 @@ Country Details: Click on a country in the dashboard to navigate to its detailed
 Testing
 Run unit tests:
 
-bash
-Copier le code
 ng test
 Run end-to-end tests:
 
-bash
-Copier le code
-ng e2e
 Deployment
 To build the project for production, use:
 
-bash
-Copier le code
 ng build --prod
 The output will be in the dist/ directory. You can deploy this to any web server.
 
@@ -90,29 +75,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Contact
 For any questions or feedback, please reach out to aflouat@gmail.com.
-
-markdown
-Copier le code
-
-### Instructions for VS Code and GitHub:
-
-1. **Save the README file:**
-   - Ensure that the README is saved as `README.md` in the root directory of your project.
-
-2. **Stage and Commit Changes:**
-   - In VS Code, open the terminal and stage your changes:
-     ```bash
-     git add README.md
-     ```
-   - Commit your changes with a meaningful message:
-     ```bash
-     git commit -m "Update README with project overview, setup instructions, project board link, and credits"
-     ```
-
-3. **Push the Changes:**
-   - Push the changes to your branch:
-     ```bash
-     git push origin your-branch-name
-     ```
-
-This should help make your repository more informative and provide proper attribution to the third-party libraries you're using.
