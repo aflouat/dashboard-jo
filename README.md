@@ -29,49 +29,43 @@
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/aflouat/dashboard-jo.git
+
 Navigate to the project directory:
+`cd olympic-dashboard`
 
-cd olympic-dashboard
 Install dependencies:
+`npm install`
 
-npm install
-Running the App
-Start the development server:
+Running the App / Start the development server:
+`ng serve`
 
-ng serve
 Open your browser and navigate to:
-
-http://localhost:4200
+`http://localhost:4200`
 The app should now be running locally on your machine.
 
-Usage
+**Usage**
 Dashboard: View the overall medal distribution by country. Hover over the pie chart segments to see detailed counts.
 Country Details: Click on a country in the dashboard to navigate to its detailed page, where you can see its performance over time via a line chart.
-Testing
-Run unit tests:
 
-ng test
-Run end-to-end tests:
+**Testing**, Run unit tests:
+`ng test`
 
-Deployment
-To build the project for production, use:
-
-ng build --prod
+**Deployment**, To build the project for production, use:
+`ng build --prod`
 The output will be in the dist/ directory. You can deploy this to any web server.
 
-Contributing
-Contributions are welcome! Please fork the repository and create a pull request with your changes. Ensure that all new code includes relevant tests.
+**Contributing**, Contributions are welcome! Please fork the repository and create a pull request with your changes. Ensure that all new code includes relevant tests.
 
-Project Management
-For more details on features, issues, and project management, visit the Project Board.
+**Project Management**, For more details on features, issues, and project management, visit the Project Board : `https://github.com/users/aflouat/projects/3/views/1`
 
-Credits
-Angular: A platform and framework for building single-page client applications using HTML and TypeScript. Angular
-Ngx-Charts: A charting library for Angular based on D3.js. Ngx-Charts
-RxJS: A library for reactive programming using observables. RxJS
-Angular CLI: A command-line interface for Angular applications. Angular CLI
-License
+**Credits** : 
+Angular: A platform and framework for building single-page client applications using HTML and TypeScript. 
+Ngx-Charts: A charting library for Angular based on D3.js.
+RxJS: A library for reactive programming using observables. 
+Angular CLI: A command-line interface for Angular applications. 
+
+**License**
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Contact
+**Contact** : 
 For any questions or feedback, please reach out to aflouat@gmail.com.
